@@ -12,5 +12,6 @@ namespace PruebaGit
         public string Apellido;
         public string DNI;
         public string Telefono;
+        public string Domicilio;
     }
 }
