@@ -15,5 +15,7 @@ namespace PruebaGit
         public string DNI { get; set; }
 
         public string Telefono { get; set; }
+
+        public string Email { get; set; }
     }
 }
