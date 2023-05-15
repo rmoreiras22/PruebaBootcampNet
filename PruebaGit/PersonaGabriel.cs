@@ -13,5 +13,12 @@ namespace PruebaGit
         public string Nombre { get; set; }
         public string Apellido { get; set; }
         public string Documento { get; set; }
+
+        public string Direccion { get; set; }
+
+        public DateTime Nacimiento { get; set; }
+
+
+        public PersonaGabriel() { } 
     }
 }
