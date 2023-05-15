@@ -15,5 +15,6 @@ namespace PruebaGit
         public string Direccion { get; set; }
 
         public string Documento { get; set; }
+        public DateTime Nacimiento { get; set; }
     }
 }
