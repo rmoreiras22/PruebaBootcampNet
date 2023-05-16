@@ -18,7 +18,7 @@ namespace PruebaGit
 
         public DateTime Nacimiento { get; set; }
 
-
+        private string email { get; set; }
         public PersonaGabriel() { } 
     }
 }
