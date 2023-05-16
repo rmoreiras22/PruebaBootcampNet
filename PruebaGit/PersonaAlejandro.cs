@@ -8,11 +8,12 @@ namespace PruebaGit
 {
     public class PersonaAlejandro
     {
-        public string Nombre;
-        public string Apellido;
-        public string DNI;
-        public string Telefono;
-        public string Domicilio;
-        public DateTime FechaNacimiento;
+        public string Nombre { get; set; }
+        public string Apellido { get; set; }
+        public string DNI { get; set; }
+        public string Telefono { get; set; }
+        public string Mail { get; set; }
+        public string Domicilio { get; set; }
+        public DateTime FechaNacimiento { get; set; }
     }
 }
