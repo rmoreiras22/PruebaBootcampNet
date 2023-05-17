@@ -13,8 +13,6 @@ namespace PruebaGit
         public string Email { get; set; }
         public string Telefono { get; set; }
 
-        public string Telefono { get; set; }
-
         public PersonaGabriel()
         {
         }
@@ -52,12 +50,7 @@ namespace PruebaGit
             Console.WriteLine("Fecha de nacimiento: " + Nacimiento.ToString("dd/MM/yyyy"));
             Console.WriteLine("Edad: " + Edad);
             Console.WriteLine("Email: " + Email);
-<<<<<<< HEAD
-            Console.WriteLine("Telefono: " + Direccion);
-
-=======
             Console.WriteLine("Telefono: " + Telefono);
->>>>>>> develop
         }
     }
 }
