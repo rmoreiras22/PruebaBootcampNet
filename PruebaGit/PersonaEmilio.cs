@@ -13,5 +13,17 @@ namespace PruebaGit
         public string Apellido { get; set; }
 
         public string Direccion { get; set; }
+
+        public void MostrarInformacion()
+        {
+            Console.WriteLine("Nombre: " + Nombre);
+            Console.WriteLine("Apellido: " + Apellido);
+            Console.WriteLine("Documento: " + Documento);
+            Console.WriteLine("Dirección: " + Direccion);
+            Console.WriteLine("Fecha de nacimiento: " + Nacimiento.ToString("dd/MM/yyyy"));
+
+        }
     }
+
+
 }
