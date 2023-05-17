@@ -14,5 +14,6 @@ namespace PruebaGit
         public string Telefono;
         public string Domicilio;
         public DateTime FechaNacimiento;
+        public string Direccion { get; set; }
     }
 }
