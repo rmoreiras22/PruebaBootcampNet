@@ -14,8 +14,10 @@ namespace PruebaGit
 
         public string Direccion { get; set; }
 
+
         public string Documento { get; set; }
         public DateTime Nacimiento { get; set; }
+
 
         public void MostrarInformacion()
         {
@@ -24,6 +26,8 @@ namespace PruebaGit
             Console.WriteLine("Documento: " + Documento);
             Console.WriteLine("Dirección: " + Direccion);
             Console.WriteLine("Fecha de nacimiento: " + Nacimiento.ToString("dd/MM/yyyy"));
+
         }
     }
+
 }
